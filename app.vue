@@ -10,7 +10,12 @@
         {{ $t('sample.hello') }}
       </div>
       <div class="p-4">
-        <kendo-radio :initial-value="false" />
+        <kendo-checkbox :initial-value="false" />
+
+      </div>
+      <div class="p-4">
+        <kendo-radio :initial-value="'second'" />
+        
       </div>
     </div>
     <NuxtWelcome />

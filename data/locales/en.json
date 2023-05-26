@@ -1,6 +1,11 @@
 {
   "sample":{
-    "hello":"Hello World!",
+    "hello":"Checkboxes and radio buttons are not fully checked!",
     "wierdbehavior":"This is a wierd behavior"
+  }  ,
+  "radio":{
+    "first":"First",
+    "second":"Second",
+    "third":"Third"
   }
 }

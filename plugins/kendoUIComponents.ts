@@ -2,7 +2,7 @@ import { Icon } from '@progress/kendo-vue-common';
 import { Dialog , DialogActionsBar} from '@progress/kendo-vue-dialogs';
 import { Button, FloatingActionButton} from '@progress/kendo-vue-buttons';
 import { MultiSelect,DropDownList, AutoComplete, ComboBox  } from '@progress/kendo-vue-dropdowns';
-import { Input, Switch, NumericTextBox, TextArea, Checkbox, RadioGroup } from '@progress/kendo-vue-inputs';
+import { Input, Switch, NumericTextBox, TextArea, Checkbox, RadioGroup, RadioButton } from '@progress/kendo-vue-inputs';
 import { Grid , GridToolbar, GridNoRecords} from '@progress/kendo-vue-grid';
 import { GridPdfExport } from '@progress/kendo-vue-pdf';
 import { Label, FloatingLabel, Hint, Error } from '@progress/kendo-vue-labels';
@@ -46,6 +46,7 @@ export default defineNuxtPlugin((nuxtApp)=>{
   nuxtApp.vueApp.component("KTextArea", TextArea);
   nuxtApp.vueApp.component("KCheckbox", Checkbox);
   nuxtApp.vueApp.component("KRadiogroup", RadioGroup);
+  nuxtApp.vueApp.component("KRadioButton",RadioButton);
   nuxtApp.vueApp.component("KGrid", Grid);
   nuxtApp.vueApp.component("KGridToolbar", GridToolbar);
   nuxtApp.vueApp.component("KGridPdfExport", GridPdfExport);

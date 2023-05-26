@@ -2,5 +2,10 @@
   "sample":{
     "hello":"Hallo Welt!",
     "wierdbehavior":"Is das OK"
-  }
+  },
+  "radio":{
+    "first":"Erste",
+    "second":"Zweite",
+    "third":"Dritte"
+  },
 }
