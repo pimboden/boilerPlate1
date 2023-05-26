@@ -1,0 +1,50 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/i18n": "8.0.0-beta.10",
+    "@nuxtjs/tailwindcss": "^6.7.0",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/container-queries": "^0.1.1",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/typography": "^0.5.9",
+    "@types/node": "^18",
+    "cross-env": "^7.0.3",
+    "nuxt": "^3.5.1",
+    "sass": "^1.56.1"
+  },
+  "dependencies": {
+    "@progress/kendo-data-query": "^1.6.0",
+    "@progress/kendo-drawing": "^1.17.2",
+    "@progress/kendo-licensing": "^1.2.2",
+    "@progress/kendo-svg-icons": "^1.1.1",
+    "@progress/kendo-theme-default": "^5.12.0",
+    "@progress/kendo-vue-animation": "^3.7.3",
+    "@progress/kendo-vue-common": "^3.8.3",
+    "@progress/kendo-vue-data-tools": "^3.7.3",
+    "@progress/kendo-vue-dateinputs": "^3.7.3",
+    "@progress/kendo-vue-dialogs": "^3.7.3",
+    "@progress/kendo-vue-dropdowns": "^3.7.3",
+    "@progress/kendo-vue-excel-export": "^3.7.3",
+    "@progress/kendo-vue-form": "^3.8.1",
+    "@progress/kendo-vue-grid": "^3.7.3",
+    "@progress/kendo-vue-indicators": "^3.7.3",
+    "@progress/kendo-vue-inputs": "^3.7.3",
+    "@progress/kendo-vue-intl": "^3.7.3",
+    "@progress/kendo-vue-labels": "^3.8.1",
+    "@progress/kendo-vue-layout": "^3.10.0",
+    "@progress/kendo-vue-notification": "^3.8.2",
+    "@progress/kendo-vue-pdf": "^3.7.3",
+    "@progress/kendo-vue-tooltip": "^3.8.1",
+    "cldr-core": "^42.0.0",
+    "cldr-dates-full": "^42.0.0",
+    "cldr-numbers-full": "^42.0.0"
+  }
+}

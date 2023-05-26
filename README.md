@@ -1,0 +1,1 @@
+Small boilerplate nuxt3 project  that uses kendo UI, @nuxtjs/i18n and @nuxtjs/tailwindcss
